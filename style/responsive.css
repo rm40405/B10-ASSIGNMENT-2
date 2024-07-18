@@ -15,16 +15,49 @@
       /* bannner */
       .section-banner{
         flex-direction: column;
-        height: 100%;
+        align-items: center;
+        gap:30px;
       }
       .section-banner-heading{
         font-size: 2.5rem;
         color:rgb(255, 255, 255);
         font-weight: 900;
     }
-      .section-banner-image{
-        position: absolute;
-        top:70%;
+
+     .section-banner-image{
+        margin-left: 50px;
+        
+      } 
+      .section-banner-image img{
         
       }
+      .video-tutorial-1{
+        position: absolute;
+    display: flex;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.205);
+    filter: blur(100%);
+    padding: 0px 30px;
+    text-align: center;
+    right: 70%;
+    bottom: 15%;
+      }
+      .video-tutorial{
+        position: absolute;
+        border-radius: 20px;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding:0px 30px;
+        margin:0;
+        background-color:rgba(255, 255, 255, 0.203);
+        filter: blur(100%);
+        top: 15%;
+        left: 55%;
+        
+        
+        
+    }
 }

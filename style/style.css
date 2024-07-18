@@ -178,4 +178,23 @@ a{
 }
 .section-1-items{
     display:flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    gap:4rem;
+}
+.section-1-item{
+    text-align: center;
+}
+.section-1-item p{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.5);
+    
+}
+.section-1-item img{
+    width:100%;
+    border-radius: 50%;
+}
+.section-1-item h3{
+    color:#ffffff;
 }

@@ -1,0 +1,15 @@
+/* nav responsive  mobile*/
+@media screen and (max-width: 576px) {
+    
+     .nav-container {
+        
+        flex-direction: row;
+
+      }
+      .hide{
+        display:block;
+      }
+      .nav-links{
+        display:none;
+      }
+}

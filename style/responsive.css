@@ -60,4 +60,31 @@
         
         
     }
+
+    /* section 1 change your habit */
+
+    .section-1-heading{
+      
+    flex-direction: column;
+      
+      text-align: center;
+  
+  }
+  .section-1-heading h2{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.section-1-heading p{
+  font-size: 0.6rem;
+  font-weight: 300;
+  color:rgba(255, 255, 255, 0.5);
+}
+  .section-1-items{
+    display:flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap:2rem;
+}
 }

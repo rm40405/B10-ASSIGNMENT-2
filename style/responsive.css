@@ -4,6 +4,7 @@
      .nav-container {
         
         flex-direction: row;
+        margin:0 1rem;
 
       }
       .hide{
@@ -17,6 +18,7 @@
         flex-direction: column;
         align-items: center;
         gap:30px;
+        margin:0 1rem;
       }
       .section-banner-heading{
         font-size: 2.5rem;
@@ -87,4 +89,21 @@
     flex-direction: column;
     gap:2rem;
 }
+          /* section 2 responsive */
+
+          .section-2-run{
+            flex-direction: column;
+            margin:0 1rem;
+            gap:30px;
+            
+        
+        }
+        .section-2-image img{
+          width:250px;
+          height: 200px;
+          
+          border-radius: 15px;
+      }
+
+
 }

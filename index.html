@@ -122,14 +122,17 @@
       </section>
 
       <!-- section 3 BMI -->
-      <div class="section-3-heading">
-        <h1>BMI Calculator</h1>
-        <p>We believe fitness should be accessible to everyone</p>
-      </div>
+      
 
-      <section class="section-3-bmi background">
+      <section class="section-3-bmi">
         
-
+        <div class="section-3-heading">
+          <h1>BMI Calculator</h1>
+          <p>We believe fitness should be accessible to everyone everywhere,
+            regardless of income or access to a gym
+           <br> For instance, it can reduce the risk of cardiovascular disease
+          </p>
+        </div>
       
           <div class="section-3-container">
             <div class="section-3-table">
@@ -160,19 +163,20 @@
             <div class="section-3-form">
               <h2>Calculate your BMI</h2>
               <p>
-                We believe fitness should be accessible to everyone, everywhere,
-                regardless of income or access to a gym.
+                We believe fitness should be accessible to everyone, 
+                everywhere,
+                regardless <br>of income or access to a gym.
               </p>
               <div>
                 <from>
-                  <input type="text" placeholder="Height/cm" id="Height" />
-                  <input type="text" placeholder="Weight/kg" id="Weight" />
+                  <input type="text" placeholder="Height/cm" id="height" />
+                  <input type="text" placeholder="Weight/kg" id="weight" />
                 </from>
               </div>
               <div>
                 <from>
-                  <input type="text" placeholder="Age" id="Age" />
-                  <select id="Sex">
+                  <input type="text" placeholder="Age" id="age" />
+                  <select id="sex">
                     <option value="Sex">Sex</option>
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
@@ -181,7 +185,7 @@
               </div>
               <div>
                 <from>
-                  <select>
+                  <select id="select">
                     <option value="Select an activity factor">
                       Select an activity factor
                     </option>
@@ -189,7 +193,7 @@
                 </from>
               </div>
               <div class="">
-                <button><a href="">Calculated</a></button>
+                <button class="calculate"><a href="">Calculated</a></button>
               </div>
             </div>
           

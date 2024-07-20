@@ -236,38 +236,61 @@ a{
 }
 
 /* section 3 style */
+.section-3-heading{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.section-3-heading h1{
+    
+    font-size: 2rem;
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.section-3-heading p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 50px;
+}
 
 .section-3-container{
     display:flex;
     justify-content: space-evenly;
     gap:200px;
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(33, 33, 33);
+    padding:50px 0;
+    margin-top: 50px;
     
 }
 .section-3-table h2{
     margin-left: 5rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 .section-3-table table{
     border:1px solid rgb(155, 76, 76);
     border-collapse:collapse ;
     font-size: 0.7rem;
-    padding: 5px 50px;
+    padding: 10px 50px;
     margin-left: 5rem;
     align-items: baseline;
+    
 
 }
 .section-3-table td{
-    border:1px solid rgb(133, 40, 40);
+    border:1px solid rgb(81, 80, 80);
     margin:2px 2px;
-    padding:5px 40px;
+    padding:10px 40px;
     color:rgba(255, 255, 255, 0.5);
     text-align: left;
 
 }
 .section-3-table th{
-    border:1px solid rgb(135, 65, 65);
+    border:1px solid rgb(83, 83, 83);
     margin:2px 2px;
-    padding:5px 40px;
+    padding:10px 40px;
     text-align: left;
 
 } 
@@ -275,12 +298,48 @@ a{
 .section-3-form{
     margin-right: 5rem;
 }
-#Height,#Weight,#Age,#Sex{
+.section-3-form h2{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.section-3-form p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+}
+#height,#weight,#age{
     font-size: 0.8rem;
     background-color: rgb(56, 55, 55);
-    padding:15px 30px;
+    padding:12px 40px;
     margin:5px;
     border: none;
     border-radius: 5px;
     color:rgba(255, 255, 255, 0.5);
+}
+#sex{
+    font-size: 0.8rem;
+    background-color: rgb(56, 55, 55);
+    padding:12px 88px;
+    margin:5px;
+    border: none;
+    border-radius: 5px;
+    color:rgba(255, 255, 255, 0.5);
+
+}
+#select{
+    font-size: 0.8rem;
+    background-color: rgb(56, 55, 55);
+    padding:12px 170px;
+    margin:5px;
+    border: none;
+    border-radius: 5px;
+    color:rgba(255, 255, 255, 0.5)
+}
+.calculate{
+    background-color: rgb(230, 83, 60);
+    padding:10px 30px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
 }

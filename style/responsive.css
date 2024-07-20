@@ -105,5 +105,24 @@
           border-radius: 15px;
       }
 
+      /* section 3 responsive */
+      .section-3-heading{
+        margin-top: 50px;
+        margin-left:5px;
+    }
+      .section-3-container{
+        flex-direction: column;
+      }
+      .section-3-table table ,h2{
+        
+        
+      
+        
+        margin-left: 5px;
+        
+        
+    
+    }
+
 
 }

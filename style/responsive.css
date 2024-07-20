@@ -112,17 +112,42 @@
     }
       .section-3-container{
         flex-direction: column;
+        margin:0 5px;
       }
       .section-3-table table ,h2{
         
         
-      
-        
-        margin-left: 5px;
+          margin-left: 5px;
         
         
     
     }
+    #select{
+      
+      
+      padding:12px 65px;
+      
+     
+  }
+      .section-3-container{
+        
+        gap:50px;
+        
+        
+    }
+
+    .section-3-form{
+      margin:5px;
+  }
+  #height,#weight,#age,#sex{
+    padding:12px 5px;
+    padding-right: 10px;
+    width:125px;
+    height: 20px;
+    
+  }
+  
+     
 
 
 }

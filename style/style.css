@@ -343,3 +343,17 @@ a{
     border-radius: 25px;
     margin-top: 20px;
 }
+
+/* section 4 style */
+.section-4-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding:30px;
+    margin:30px;
+    background-color: rgb(34, 34, 34);
+ }
+ .section-4-image-1,.section-4-image-2,.section-4-image-3,.section-4-image-4,.section-4-image-5,.section-4-image-6 img{
+
+    width:300px;
+    height: 250px;
+ }

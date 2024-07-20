@@ -235,3 +235,52 @@ a{
     padding:10px 40px;
 }
 
+/* section 3 style */
+
+.section-3-container{
+    display:flex;
+    justify-content: space-evenly;
+    gap:200px;
+    background-color: rgb(35, 35, 35);
+    
+}
+.section-3-table h2{
+    margin-left: 5rem;
+}
+.section-3-table table{
+    border:1px solid rgb(155, 76, 76);
+    border-collapse:collapse ;
+    font-size: 0.7rem;
+    padding: 5px 50px;
+    margin-left: 5rem;
+    align-items: baseline;
+
+}
+.section-3-table td{
+    border:1px solid rgb(133, 40, 40);
+    margin:2px 2px;
+    padding:5px 40px;
+    color:rgba(255, 255, 255, 0.5);
+    text-align: left;
+
+}
+.section-3-table th{
+    border:1px solid rgb(135, 65, 65);
+    margin:2px 2px;
+    padding:5px 40px;
+    text-align: left;
+
+} 
+
+.section-3-form{
+    margin-right: 5rem;
+}
+#Height,#Weight,#Age,#Sex{
+    font-size: 0.8rem;
+    background-color: rgb(56, 55, 55);
+    padding:15px 30px;
+    margin:5px;
+    border: none;
+    border-radius: 5px;
+    color:rgba(255, 255, 255, 0.5);
+}

@@ -345,15 +345,66 @@ a{
 }
 
 /* section 4 style */
+
+.section-4-heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+
+}
+.section-4-heading h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin:10px;
+}
+.section-4-heading p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.5);
+}
 .section-4-container{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    padding:30px;
-    margin:30px;
+    padding:10px;
+    margin: 5rem;
     background-color: rgb(34, 34, 34);
- }
- .section-4-image-1,.section-4-image-2,.section-4-image-3,.section-4-image-4,.section-4-image-5,.section-4-image-6 img{
+    border-radius: 20px;
+    
 
-    width:300px;
-    height: 250px;
+
+    
  }
+ .image-1,.image-2,.image-3,.image-4,.image-5,.image-6 {
+
+    width:250px;
+    height:220px;
+    margin:30px;
+    
+    border-radius: 10px;
+    align-items: center;
+    
+    
+ }
+ .section-4-image-1,.section-4-image-2,.section-4-image-3,.section-4-image-4,.section-4-image-5,.section-4-image-6{
+
+    position: relative;
+    
+ }
+ 
+   .name{
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+    margin:0;
+    color: #ffffff;
+    font-size: 1rem;
+   }
+   .trainer{
+    position: absolute;
+    bottom:25px;
+    left:40px;
+    color: rgba(255, 255, 255, 0.5);
+   }

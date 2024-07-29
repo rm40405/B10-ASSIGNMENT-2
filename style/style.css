@@ -297,7 +297,12 @@ a{
 
 .section-3-form{
     margin-right: 5rem;
+    
 }
+.section-3-form-content{
+    display:flex;
+}
+
 .section-3-form h2{
     color: #ffffff;
     font-size: 1.5rem;
@@ -335,6 +340,7 @@ a{
     border: none;
     border-radius: 5px;
     color:rgba(255, 255, 255, 0.5)
+    
 }
 .calculate{
     background-color: rgb(230, 83, 60);

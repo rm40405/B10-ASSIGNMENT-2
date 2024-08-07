@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/miami');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sacramento&display=swap');
 body{
     font-family: "Inter", sans-serif;
     background-color: rgb(0, 0, 0);
@@ -60,6 +62,16 @@ a{
 
 
 /* banner section tyle */
+.shape{
+    font-family: "Great Vibes", cursive;
+    
+    font-weight:100;
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+
+                                                
+}
 
 .section-banner{
     display:flex;
@@ -70,9 +82,11 @@ a{
 }
 
 .section-banner-heading{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color:rgb(255, 255, 255);
     font-weight: 900;
+    margin: 0;
+    padding: 0;
 }
 .section-banner-description{
     font-size:1rem;
@@ -82,6 +96,8 @@ a{
 }
 .section-banner-image img {
     width: 100%;
+
+
     
     
 }
@@ -238,7 +254,7 @@ a{
 /* section 3 style */
 .section-3-heading{
     margin-top: 50px;
-    margin-left: 400px;
+    margin-left: 300px;
 }
 .section-3-heading h1{
     
@@ -257,7 +273,7 @@ a{
 .section-3-container{
     display:flex;
     justify-content: space-evenly;
-    gap:200px;
+    gap:100px;
     background-color: rgb(33, 33, 33);
     padding:50px 0;
     margin-top: 50px;
@@ -299,9 +315,11 @@ a{
     margin-right: 5rem;
     
 }
-.section-3-form-content{
-    display:flex;
+.section-3-id{
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
 .section-3-form h2{
     color: #ffffff;
@@ -339,6 +357,7 @@ a{
     margin:5px;
     border: none;
     border-radius: 5px;
+    margin-right: 100px;
     color:rgba(255, 255, 255, 0.5)
     
 }
@@ -386,10 +405,11 @@ a{
  .image-1,.image-2,.image-3,.image-4,.image-5,.image-6 {
 
     width:250px;
-    height:220px;
-    margin:30px;
+    height:230px;
+    margin:10px;
+    /* padding: 30px; */
     
-    border-radius: 10px;
+    border-radius: 20px;
     align-items: center;
     
     
@@ -414,6 +434,46 @@ a{
     left:40px;
     color: rgba(255, 255, 255, 0.5);
    }
+   /* section 5 style */
+   .section-5-title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-left: 5rem;
+    margin-right: 5rem;
+   }
+   .section-5-title p{
+    font-size: 2rem;
+    color: beige;
+   }
+   .section-5-container{
+    display: flex;
+    margin:5rem;
+    gap:100px;
+    background-color: rgb(36, 34, 34);
+    padding: 50px;
+   }
+   .section-5-container p{
+    color: rgb(97, 96, 96);
+    font-size: 0.8rem;
+    
+   }
+   .section-5-container img{
+     width:100%;
+     height: 100%;
+   }
+   .section-5-container button{
+    background-color: rgb(230, 83, 60);
+    padding:10px 30px;
+    border: none;
+    border-radius: 25px;
+    color: #ffffff;
+    margin-top: 10px;
+   }
+
 
    /* footer section style */
   .footer-section{
@@ -446,7 +506,7 @@ a{
     font-size: 1.6rem;
     color:#ffffff;
     margin-top: 100px;
-    margin-left: 50px;
+    
 
    }
    .footer-middle li{
@@ -455,13 +515,15 @@ a{
     margin:20px;
     font-size: 1rem;
     
+    
    }
    .footer-right h1{
     font-size: 1.6rem;
     color:#ffffff;
     margin-top: 100px;
-    margin-left: 50px;
-    margin-left: 150px;
+    margin-left: 100px;
+    
+    
    }
    .footer-right li{
     list-style: none;

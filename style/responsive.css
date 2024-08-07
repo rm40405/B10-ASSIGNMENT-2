@@ -154,6 +154,12 @@
             grid-template-columns: repeat(1,1fr);
             margin:0 auto;
            }
+           /* secton 5 */
+           .section-5-container{
+            flex-direction: column;
+            gap:20px;
+            margin:0 1rem;
+           }
      
            /* footer section */
            .fotter-container{

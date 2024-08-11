@@ -154,6 +154,8 @@
             grid-template-columns: repeat(1,1fr);
             margin:0 auto;
            }
+           
+            
            /* secton 5 */
            .section-5-container{
             flex-direction: column;
@@ -164,6 +166,49 @@
            /* footer section */
            .fotter-container{
             flex-direction: column;
+           }
+
+           .footer-middle h1{
+            font-size: 1.6rem;
+            color:#ffffff;
+            margin-top: 20px;
+            margin-left: 80px;
+            
+        
+           }
+           .footer-middle li{
+            list-style: none;
+            color: rgb(137, 134, 134);
+            margin:20px;
+            font-size: 1rem;
+            margin-left: 50px;
+            
+            
+           }
+           .footer-right h1{
+            font-size: 1.6rem;
+            color:#ffffff;
+            margin-top: 50px;
+            margin-right: 10px;
+            
+            
+            
+           }
+           .footer-right li{
+            list-style: none;
+            color: rgb(137, 134, 134);
+            margin:20px;
+            font-size: 1rem;
+            margin-left: 50px;
+            
+           }
+           .last-fitness{
+            font-size: 0.7rem;
+            color:rgba(255, 255, 255, 0.5);
+            display: inline-block;
+            margin: 5px;
+            
+            
            }
 
 
